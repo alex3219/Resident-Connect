@@ -11,6 +11,11 @@ import UIKit
    class HomeViewController: UIViewController {
     
     @IBAction func connectTappedButton(_ sender: Any) {
+
+    print("Button Pressed")
+        self.performSegue(withIdentifier: "Connect", sender: self)
+        
+        
     }
     
     
