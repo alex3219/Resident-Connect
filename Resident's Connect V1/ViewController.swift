@@ -8,12 +8,14 @@
 
 import UIKit
    
-   class HomeViewController: UIViewController {
+   class ViewController: UIViewController {
     
     @IBAction func connectTappedButton(_ sender: Any) {
 
     print("Button Pressed")
-        self.performSegue(withIdentifier: "Connect", sender: self)
+        self.performSegue(withIdentifier: "resConnectLogin", sender: self)
+        
+    
         
         
     }
@@ -38,7 +40,7 @@ import UIKit
         _ = userPasswordTextField.text;
         _ = confirmPasswordTextField;
         
-        func displayMyAlertMessage(userMessage:String){
+        func displayMyAlertMessage(userMessage:String){ 
             
             let myAlert = UIAlertController(title:"Alert", message: userMessage, preferredStyle: UIAlertController.Style.alert);
             
@@ -71,3 +73,10 @@ import UIKit
  
    }
 }
+
+   
+   
+   
+   
+   
+   

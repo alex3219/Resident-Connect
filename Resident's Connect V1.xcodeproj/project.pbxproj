@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2417488C21A26D14000F5A2F /* eventCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2417488B21A26D14000F5A2F /* eventCalendar.swift */; };
+		2442CF16217E45F2003AAA45 /* ResidentCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CF15217E45F2003AAA45 /* ResidentCalendar.swift */; };
 		24467EC8216FD06600024D1A /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24467EC7216FD06600024D1A /* RegisterPageViewController.swift */; };
 		24991233215690A5003DA1A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24991232215690A5003DA1A0 /* AppDelegate.swift */; };
 		24991235215690A5003DA1A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24991234215690A5003DA1A0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2417488B21A26D14000F5A2F /* eventCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCalendar.swift; sourceTree = "<group>"; };
+		2442CF15217E45F2003AAA45 /* ResidentCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentCalendar.swift; sourceTree = "<group>"; };
 		24467EC7216FD06600024D1A /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		2499122F215690A5003DA1A0 /* Resident's Connect V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resident's Connect V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24991232215690A5003DA1A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		24991226215690A5003DA1A0 = {
 			isa = PBXGroup;
 			children = (
+				2442CF15217E45F2003AAA45 /* ResidentCalendar.swift */,
 				24991231215690A5003DA1A0 /* Resident's Connect V1 */,
 				24991230215690A5003DA1A0 /* Products */,
 			);
@@ -58,6 +63,7 @@
 			children = (
 				24991232215690A5003DA1A0 /* AppDelegate.swift */,
 				24991234215690A5003DA1A0 /* ViewController.swift */,
+				2417488B21A26D14000F5A2F /* eventCalendar.swift */,
 				24991236215690A5003DA1A0 /* Main.storyboard */,
 				24991239215690A6003DA1A0 /* Assets.xcassets */,
 				2499123B215690A6003DA1A0 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24991235215690A5003DA1A0 /* ViewController.swift in Sources */,
+				2417488C21A26D14000F5A2F /* eventCalendar.swift in Sources */,
+				2442CF16217E45F2003AAA45 /* ResidentCalendar.swift in Sources */,
 				24991233215690A5003DA1A0 /* AppDelegate.swift in Sources */,
 				24467EC8216FD06600024D1A /* RegisterPageViewController.swift in Sources */,
 			);
